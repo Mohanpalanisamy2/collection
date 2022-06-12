@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-12T20:45:56 IST" name="MyNumberTestSuite" finished-at="2022-06-12T20:45:56 IST" duration-ms="26">
+    <groups>
+      <group name="post-init">
+        <method signature="TestNGGroupTest.method2()[pri:0, instance:org.test.TestNGGroupTest@e1de817]" name="method2" class="org.test.TestNGGroupTest"/>
+      </group> <!-- post-init -->
+      <group name="init">
+        <method signature="TestNGGroupTest.method1()[pri:0, instance:org.test.TestNGGroupTest@e1de817]" name="method1" class="org.test.TestNGGroupTest"/>
+        <method signature="TestNGGroupTest.method2()[pri:0, instance:org.test.TestNGGroupTest@e1de817]" name="method2" class="org.test.TestNGGroupTest"/>
+      </group> <!-- init -->
+    </groups>
+    <test started-at="2022-06-12T20:45:56 IST" name="MyNumberTest" finished-at="2022-06-12T20:45:56 IST" duration-ms="26">
+      <class name="org.test.TestNGGroupTest">
+        <test-method signature="method1()[pri:0, instance:org.test.TestNGGroupTest@e1de817]" started-at="2022-06-12T20:45:56 IST" name="method1" finished-at="2022-06-12T20:45:56 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method signature="method2()[pri:0, instance:org.test.TestNGGroupTest@e1de817]" started-at="2022-06-12T20:45:56 IST" name="method2" finished-at="2022-06-12T20:45:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+      </class> <!-- org.test.TestNGGroupTest -->
+    </test> <!-- MyNumberTest -->
+  </suite> <!-- MyNumberTestSuite -->
+</testng-results>

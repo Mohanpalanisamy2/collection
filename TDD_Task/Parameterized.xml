@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyNumberTestSuite">
+  <test  name="MyNumberTest">
+  <parameter name="value1" value="10"></parameter>
+  <parameter name="value2" value="11"></parameter>
+  <parameter name="result" value="21"></parameter>
+   <classes>
+       <class name="TestNGParameterizedTest1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
